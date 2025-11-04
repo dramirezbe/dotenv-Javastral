@@ -1,28 +1,30 @@
-# Ignorar cualquier carpeta 'plugin' en cualquier ubicación dentro del repo
-**/plugin/
 
-# Archivos de respaldo y swap de Neovim
+#Nvim ignores
+**/plugin/
 **/*.swp
 **/*.swo
 **/*.bak
 **/*.tmp
 **/*~
-
-# Configuración específica del usuario
 **/session.vim
 **/view/
 **/shada/
 **/undo/
 **/swap/
 **/backup/
-
-# Archivos de compilación y cachés
 **/*.o
 **/*.so
 **/*.a
 **/*.pyc
 **/__pycache__/
 
-# Ignorar cualquier archivo en .gitignore_global si se usa
+#Zsh & Kitty ignores
+
+
+#ignore global config
 **/.gitignore_global
+**/build/
+**/dist/
+**/node_modules/
+
 
